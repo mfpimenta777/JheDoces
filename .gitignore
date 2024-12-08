@@ -1,0 +1,6 @@
+/node_modules
+# Ignorar diretórios do sistema
+Windows/
+Program Files/
+ProgramData/
+$Recycle.Bin/

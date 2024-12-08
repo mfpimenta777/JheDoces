@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f6f7f8;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Adiciona um grande espaçamento entre as colunas */
+    gap: 50px; /* Define o espaçamento entre as duas colunas */
+}
+
+.column {
+    display: flex;
+    flex-direction: column; /* Faz com que as informações dentro da coluna fiquem em uma coluna */
+}
+
+.font-bold {
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estilos para os campos de input */
+.input-field {
+    border: 2px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+}
+
+/* Quando o campo estiver com erro, a borda ficará vermelha */
+.input-field.border-red-500 {
+    border-color: #f00; /* Vermelho para erro */
+}
